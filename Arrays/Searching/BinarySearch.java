@@ -15,7 +15,7 @@ class BinarySearch{
                 high=mid-1;
             }
         }
-        return -1;
+        return -1;   ////in leetcode used return low; when element isnot found!
     }
     public static void main(String args[]){
         Scanner sc=new Scanner (System.in);
